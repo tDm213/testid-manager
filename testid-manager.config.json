@@ -1,0 +1,5 @@
+{
+  "baseId": "C0101",
+  "overwriteExistingIds": true,
+  "glob": "cypress/**/*.@(ts|js)"
+}

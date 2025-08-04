@@ -2,11 +2,10 @@
   "name": "testid-manager",
   "version": "1.0.0",
   "description": "CLI tool to adds/removes/checkes for duplicates unique IDs into test blocks (it/test) in Cypress and Playwright.",
-  "main": "index.cjs",
   "bin": {
-    "testid-manager": "./index.cjs"
+    "testid-manager": "./bin/cli.js"
   },
-  "type": "commonjs",
+  "type": "module",
   "keywords": [
     "test",
     "cypress",

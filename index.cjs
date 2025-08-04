@@ -7,9 +7,9 @@ const recast = require('recast');
 const babelParser = require('@babel/parser');
 
 const CONFIG_FILES = [
-  'testIdInjector.config.json',
-  path.join('cypress', 'testIdInjector.config.json'),
-  path.join('playwright', 'testIdInjector.config.json'),
+  'testid-manager.config.json',
+  path.join('cypress', 'testid-manager.config.json'),
+  path.join('playwright', 'testid-manager.config.json'),
 ];
 
 function loadConfig() {

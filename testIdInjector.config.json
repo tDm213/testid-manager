@@ -1,5 +1,0 @@
-{
-  "startIndex": "0101",
-  "overwriteExistingIds": false,
-  "glob": "cypress/**/*.@(ts|js)"
-}
