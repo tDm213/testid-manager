@@ -1,7 +1,7 @@
 {
   "name": "testid-manager",
   "version": "1.0.0",
-  "description": "CLI tool to adds/removes/checkes for duplicates unique IDs into test blocks (it/test) in Cypress and Playwright.",
+  "description": "CLI tool to adds/removes/checks for duplicates unique IDs into test blocks (it/test) in Cypress and Playwright.",
   "bin": {
     "testid-manager": "./bin/cli.js"
   },
@@ -16,8 +16,8 @@
   ],
   "author": "tDM213",
   "dependencies": {
+    "@babel/parser": "^7.24.1",
     "glob": "^11.0.3",
-    "recast": "^0.23.11",
-    "@babel/parser": "^7.24.1"
+    "recast": "^0.23.11"
   }
 }
