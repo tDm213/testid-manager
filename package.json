@@ -1,7 +1,7 @@
 {
   "name": "testid-manager",
-  "version": "1.0.0",
-  "description": "CLI tool to adds/removes/checks for duplicates unique IDs into test blocks (it/test) in Cypress and Playwright.",
+  "version": "1.0.1",
+  "description": "CLI tool to add, remove, and detect duplicate test IDs (it/test) in Cypress and Playwright.",
   "bin": {
     "testid-manager": "./bin/cli.js"
   },
@@ -10,14 +10,29 @@
     "test",
     "cypress",
     "playwright",
-    "ids",
-    "automation",
-    "cli"
+    "testid",
+    "test-id",
+    "test-id-manager",
+    "test automation",
+    "jest",
+    "mocha",
+    "unique id",
+    "cli",
+    "testing"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tDm213/testid-manager"
+  },
+  "bugs": {
+    "url": "https://github.com/tDm213/testid-manager/issues"
+  },
+  "homepage": "https://github.com/tDm213/testid-manager#readme",
   "author": "tDM213",
   "dependencies": {
     "@babel/parser": "^7.24.1",
     "glob": "^11.0.3",
     "recast": "^0.23.11"
-  }
+  },
+  "license": "MIT"
 }
